@@ -18,7 +18,7 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 <h2>Environments Used </h2>
 
-- <b>None</b> (21H2)
+- <b>None</b>
 
 <h2>Program walk-through:</h2>
 
