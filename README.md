@@ -38,51 +38,35 @@ Assess existing assets and complete the controls and compliance checklist to det
 
 
 <!--<p align="center">--!><b>1. Understand the Context, IT Systems Criticality and Risk Factors (Identify)</b>  <br/></p>
-The 10-character string can be deconstructed to determine who is authorized to access the file and their specific permissions. The characters and what they represent are as follows:<br/>
-- 1st character: This character is either a d or hyphen (-) and indicates the file type. If it’s a d, it’s a directory. If it’s a hyphen (-), it’s a regular file.<br/>
-- 2nd-4th characters: These characters indicate the read (r), write (w), and execute (x) permissions for the user. When one of these characters is a hyphen (-) instead, it indicates that this permission is not granted to the user.<br/>
-- 5th-7th characters: These characters indicate the read (r), write (w), and execute (x) permissions for the group. When one of these characters is a hyphen (-) instead, it indicates that this permission is not granted for the group.<br/>
-- 8th-10th characters: These characters indicate the read (r), write (w), and execute (x) permissions for other. This owner type consists of all other users on the system apart from the user and the group. When one of these characters is a hyphen (-) instead, that indicates that this permission is not granted for other.
-<br />
-<br />
-<p align="center">
-  <b>Change File Permissions</b></p>  <br/>
-The organization determined that other shouldn't have write access to any of their files. To comply with this, I referred to the file permissions that I previously returned. I determined project_k.txt must have the write access removed for other.<br/>
+I first needed to understand the context, IT systems, and risk levels of the business. <br/><br/>
+<b>Risk description</b><br/>
+Currently, assets are being managed inadequately. Additionally, Botium Toys does not have all of the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.  <br/>
 <br/>
+<b>Control best practices</b><br/>
+The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.<br/><br/>
+<b>Risk score</b><br/>
+On a scale of 1 to 10, the risk score is 8, which is fairly high. This is due to a lack of controls and adherence to compliance best practices.<br/>
+by completing a controls and compliance checklist found in my files.
 
-The following code demonstrates how I used Linux commands to do this:<br/>
-
-<img src="https://i.imghippo.com/files/iVsmE1729471023.png" height="80%" width="80%" alt=""/>
-
-The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The chmod command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the project_k.txt file. After this, I used ls -la to review the updates I made.<br/>
-<br/>
-
-<p align="center">
-  <b>Change file permissions on a hidden file</b></p>  <br/>
-The research team at my organization recently archived project_x.txt. They do not want anyone to have write access to this project, but the user and group should have read access. <br/>
-<br/<
-
-The following code demonstrates how I used Linux commands to change the permissions:<br/>
-
-<img src="https://i.imghippo.com/files/ImMnT1729471344.png" height="80%" width="80%" alt=""/>
-The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I know .project_x.txt is a hidden file because it starts with a period (.). In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with u-w. Then, I removed write permissions from the group with g-w, and added read permissions to the group with g+r. 
 <br />
 <br />
 <p align="center">
-  <b>Change directory permissions</b></p>  <br/>
-My organization only wants the researcher2 user to have access to the drafts directory and its contents. This means that no one other than researcher2 should have execute permissions.<br/>
-<br/>
-The following code demonstrates how I used Linux commands to change the permissions:<br/>
+  <b>Assessment Summary</b></p>  <br/>
 
-<img src="https://i.imghippo.com/files/paBbB1729471466.png" height="80%" width="80%" alt=""/>
-The output here displays the permission listing for several files and directories. Line 1 indicates the current directory (projects), and line 2 indicates the parent directory (home). Line 3 indicates a regular file titled .project_x.txt. Line 4 is the directory (drafts) with restricted permissions. Here you can see that only researcher2 has execute permissions.  It was previously determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.
-<br />
-<br />
-<p align="center">
-  <b>Summary</b></p>  <br/>
-
-I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the projects directory. The first step in this was using ls -la to check the permissions for the directory. This informed my decisions in the following steps. I then used the chmod command multiple times to change the permissions on files and directories.
-
+The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure. Review the following bullet points for specific details:<br/><br/>
+- Currently, all Botium Toys employees have access to internally stored data and may be able to access cardholder data and customers’ PII/SPII.<br/>
+- Encryption is not currently used to ensure confidentiality of customers’ credit card information that is accepted, processed, transmitted, and stored locally in the company’s internal database. <br/>
+- Access controls pertaining to least privilege and separation of duties have not been implemented.<br/>
+- The IT department has ensured availability and integrated controls to ensure data integrity.<br/>
+- The IT department has a firewall that blocks traffic based on an appropriately defined set of security rules.<br/>
+- Antivirus software is installed and monitored regularly by the IT department. <br/>
+- The IT department has not installed an intrusion detection system (IDS).<br/>
+- There are no disaster recovery plans currently in place, and the company does not have backups of critical data.<br/> 
+- The IT department has established a plan to notify E.U. customers within 72 hours if there is a security breach. Additionally, privacy policies, procedures, and processes have been developed and are enforced among IT department members/other employees, to properly document and maintain data.<br/>
+- Although a password policy exists, its requirements are nominal and not in line with current minimum password complexity requirements (e.g., at least eight characters, a combination of letters and at least one number; special characters). <br/>
+- There is no centralized password management system that enforces the password policy’s minimum requirements, which sometimes affects productivity when employees/vendors submit a ticket to the IT department to recover or reset a password.<br/>
+- While legacy systems are monitored and maintained, there is no regular schedule in place for these tasks and intervention methods are unclear.<br/>
+- The store’s physical location, which includes Botium Toys’ main offices, store front, and warehouse of products, has sufficient locks, up-to-date closed-circuit television (CCTV) surveillance, as well as functioning fire detection and prevention systems.
 <!--
  ```diff
 - text in red
