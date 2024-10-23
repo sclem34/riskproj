@@ -32,7 +32,7 @@ The scope of this audit is defined as the entire security program at Botium Toys
 The goal of the audit is to provide an overview of the risks and/or fines that the company might experience due to the current state of their security posture.<br/><br/>
 Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices that need to be implemented to  improve Botium Toys’ security posture.
 <br />
-<img src="http://i.imghippo.com/files/JUl8767ro.png" height="80%" width="80%" alt=""/>
+<img src="http://i.imghippo.com/files/JUl8767ro.png" height="60%" width="60%" alt=""/>
 <br />
 
 
