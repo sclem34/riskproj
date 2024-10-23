@@ -26,11 +26,10 @@ The IT manager starts by implementing the National Institute of Standards and Te
   <b>Scope and goals of the audit</b></p>  <br/>
   
 <b>Scope: </b><br/>
-
 The scope of this audit is defined as the entire security program at Botium Toys. This includes their assets like employee equipment and devices, their internal network, and their systems. You will need to review the assets Botium Toys has and the controls and compliance practices they have in place.
 <br /><br/>
 <b>Goals: </b><br/>
-
+The goal of the audit is to provide an overview of the risks and/or fines that the company might experience due to the current state of their security posture.<br/><br/>
 Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices that need to be implemented to  improve Botium Toys’ security posture.
 <br />
 <img src="http://i.imghippo.com/files/JUl8767ro.png" height="80%" width="80%" alt=""/>
@@ -38,18 +37,34 @@ Assess existing assets and complete the controls and compliance checklist to det
 
 
 <!--<p align="center">--!><b>1. Understand the Context, IT Systems Criticality and Risk Factors (Identify)</b>  <br/></p>
-I first needed to understand the context, IT systems, and risk levels of the business. <br/><br/>
+<br/>
 <b>Risk description</b><br/>
 Currently, assets are being managed inadequately. Additionally, Botium Toys does not have all of the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.  <br/>
 <br/>
+Below is the compliance and controls checklist used to conduct the audit.<br/><br/>
+
+<img src="https://i.ibb.co/QNr2XDr/Screenshot-2024-10-21-at-3-41-52-PM.png" alt="Screenshot-2024-10-21-at-3-41-52-PM" border="0"/><br/>
+<a href="https://ibb.co/2SDyS1C"><img src="https://i.ibb.co/m0LG0V2/Screenshot-2024-10-21-at-3-42-16-PM.png" alt="Screenshot-2024-10-21-at-3-42-16-PM" border="0"></a><br/>
+<a href="https://ibb.co/5xzzrDr"><img src="https://i.ibb.co/yBMM6T6/Screenshot-2024-10-21-at-3-42-28-PM.png" alt="Screenshot-2024-10-21-at-3-42-28-PM" border="0"></a><br/>
+<a href="https://ibb.co/xhLHmbR"><img src="https://i.ibb.co/G7pTsDb/Screenshot-2024-10-21-at-3-42-45-PM.png" alt="Screenshot-2024-10-21-at-3-42-45-PM" border="0"></a><br/><br/>
+
+<b>Regulatory Compliance</b><br/>
+<a href="https://ibb.co/X2RGZ8b"><img src="https://i.ibb.co/1vW4f6L/Screenshot-2024-10-21-at-3-43-06-PM.png" alt="Screenshot-2024-10-21-at-3-43-06-PM" border="0"></a><br/>
+<a href="https://ibb.co/RpQFBqT"><img src="https://i.ibb.co/hR26ZSF/Screenshot-2024-10-21-at-3-43-17-PM.png" alt="Screenshot-2024-10-21-at-3-43-17-PM" border="0"></a><br/>
+<a href="https://ibb.co/n6Ys5JG"><img src="https://i.ibb.co/ckZc7nB/Screenshot-2024-10-21-at-3-43-34-PM.png" alt="Screenshot-2024-10-21-at-3-43-34-PM" border="0"></a><br/>
+
+
 <b>Control best practices</b><br/>
-The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.<br/><br/>
+The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.<br/><br/><br/>
+
+<b>2. Prevent the Execution of a Cybersecurity Attack (Protect)</b><br/><br/>
 <b>Risk score</b><br/>
 On a scale of 1 to 10, the risk score is 8, which is fairly high. This is due to a lack of controls and adherence to compliance best practices.<br/>
 by completing a controls and compliance checklist found in my files.
 
 <br />
 <br />
+<img src="https://i.ibb.co/P5WLRtG/Screenshot-2024-10-21-at-3-43-52-PM.png" alt="Screenshot-2024-10-21-at-3-43-52-PM" border="0"/
 <p align="center">
   <b>Assessment Summary</b></p>  <br/>
 
