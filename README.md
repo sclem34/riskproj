@@ -41,17 +41,15 @@ Assess existing assets and complete the controls and compliance checklist to det
 <b>Risk description</b><br/>
 Currently, assets are being managed inadequately. Additionally, Botium Toys does not have all of the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.  <br/>
 <br/>
-Below is the compliance and controls checklist used to conduct the audit.<br/><br/>
+Below is the compliance and controls checklist used to conduct the audit.<br/><br/
 
-<img src="https://i.ibb.co/QNr2XDr/Screenshot-2024-10-21-at-3-41-52-PM.png" alt="Screenshot-2024-10-21-at-3-41-52-PM" border="0"/><br/>
-<a href="https://ibb.co/2SDyS1C"><img src="https://i.ibb.co/m0LG0V2/Screenshot-2024-10-21-at-3-42-16-PM.png" alt="Screenshot-2024-10-21-at-3-42-16-PM" border="0"></a><br/>
-<a href="https://ibb.co/5xzzrDr"><img src="https://i.ibb.co/yBMM6T6/Screenshot-2024-10-21-at-3-42-28-PM.png" alt="Screenshot-2024-10-21-at-3-42-28-PM" border="0"></a><br/>
-<a href="https://ibb.co/xhLHmbR"><img src="https://i.ibb.co/G7pTsDb/Screenshot-2024-10-21-at-3-42-45-PM.png" alt="Screenshot-2024-10-21-at-3-42-45-PM" border="0"></a><br/><br/>
+
+
+
+
 
 <b>Regulatory Compliance</b><br/>
-<a href="https://ibb.co/X2RGZ8b"><img src="https://i.ibb.co/1vW4f6L/Screenshot-2024-10-21-at-3-43-06-PM.png" alt="Screenshot-2024-10-21-at-3-43-06-PM" border="0"></a><br/>
-<a href="https://ibb.co/RpQFBqT"><img src="https://i.ibb.co/hR26ZSF/Screenshot-2024-10-21-at-3-43-17-PM.png" alt="Screenshot-2024-10-21-at-3-43-17-PM" border="0"></a><br/>
-<a href="https://ibb.co/n6Ys5JG"><img src="https://i.ibb.co/ckZc7nB/Screenshot-2024-10-21-at-3-43-34-PM.png" alt="Screenshot-2024-10-21-at-3-43-34-PM" border="0"></a><br/>
+
 
 
 <b>Control best practices</b><br/>
